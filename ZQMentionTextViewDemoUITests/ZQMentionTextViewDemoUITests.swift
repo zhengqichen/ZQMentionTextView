@@ -2,7 +2,7 @@
 //  ZQMentionTextViewDemoUITests.swift
 //  ZQMentionTextViewDemoUITests
 //
-//  Created by 雷丹 on 2019/4/30.
+//  Created by ZQ on 2019/4/30.
 //  Copyright © 2019 CZQ. All rights reserved.
 //
 

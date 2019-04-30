@@ -14,6 +14,7 @@
 		6B53B7FE2277F15C0006B904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B53B7FC2277F15C0006B904 /* LaunchScreen.storyboard */; };
 		6B53B8092277F15C0006B904 /* ZQMentionTextViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B53B8082277F15C0006B904 /* ZQMentionTextViewDemoTests.swift */; };
 		6B53B8142277F15C0006B904 /* ZQMentionTextViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B53B8132277F15C0006B904 /* ZQMentionTextViewDemoUITests.swift */; };
+		6B53B8222277F1890006B904 /* ZQMentionTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B53B8212277F1890006B904 /* ZQMentionTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6B53B80F2277F15C0006B904 /* ZQMentionTextViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQMentionTextViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B53B8132277F15C0006B904 /* ZQMentionTextViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQMentionTextViewDemoUITests.swift; sourceTree = "<group>"; };
 		6B53B8152277F15C0006B904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B53B8212277F1890006B904 /* ZQMentionTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQMentionTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		6B53B7F22277F14F0006B904 /* ZQMentionTextViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6B53B8212277F1890006B904 /* ZQMentionTextView.swift */,
 				6B53B7F32277F14F0006B904 /* AppDelegate.swift */,
 				6B53B7F52277F14F0006B904 /* ViewController.swift */,
 				6B53B7F72277F14F0006B904 /* Main.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				6B53B7F62277F14F0006B904 /* ViewController.swift in Sources */,
 				6B53B7F42277F14F0006B904 /* AppDelegate.swift in Sources */,
+				6B53B8222277F1890006B904 /* ZQMentionTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8AQ2BML8U7;
 				INFOPLIST_FILE = ZQMentionTextViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8AQ2BML8U7;
 				INFOPLIST_FILE = ZQMentionTextViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
